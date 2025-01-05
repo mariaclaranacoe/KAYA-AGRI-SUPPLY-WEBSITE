@@ -131,7 +131,7 @@ main {
     position: relative;
     width: 100%;
     max-width: 1200px;
-    margin: 0 auto; /* Center the product section */
+    margin: 0 auto; 
 }
 .product-section h1 {
 	color: white;
@@ -142,19 +142,18 @@ main {
 /* Product Grid */
 .product-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Ensures two cards per row */
-    gap: 20px; /* Space between cards */
-    max-width: 1200px; /* Limits grid width */
-    margin: 0 auto; /* Centers the grid on the page */
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px;
+    max-width: 1200px; 
+    margin: 0 auto; 
 }
 
 .product-card {
     display: flex;
     align-items: center;
     background-color: #28363D;
-    padding: 20px; /* Adds more padding for spacing */
-    border-radius: 8px; /* Smooth corners */
-    height: 250px; /* Increased height for taller cards */
+    padding: 20px; 
+    height: 250px;
 }
 
 .product-card img {
@@ -162,7 +161,7 @@ main {
     height: auto;
     border-radius: 8px; /* Smooth corners for the image */
     margin-right: 20px;
-	background-color: white;
+    background-color: white;
 }
 
 .product-details {
@@ -171,12 +170,12 @@ main {
 
 .product-details h2 {
     color: white;
-    font-size: 1.5rem; /* Larger font for the product name */
+    font-size: 1.5rem; 
     margin-bottom: 15px;
 }
 
 .product-details p {
-    font-size: 1rem; /* Slightly larger text for details */
+    font-size: 1rem;
     margin-bottom: 10px;
 }
 
@@ -235,8 +234,8 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 50px; /* Adds spacing on the sides */
-    border-bottom: 1px solid white; /* Horizontal divider */
+    padding: 0 50px; 
+    border-bottom: 1px solid white;
     margin-bottom: 10px;
 }
 
