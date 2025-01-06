@@ -131,7 +131,7 @@ main {
     position: relative;
     width: 100%;
     max-width: 1200px;
-    margin: 0 auto; 
+    margin: 0 auto; /* Center the product section */
 }
 .product-section h1 {
 	color: white;
@@ -142,18 +142,18 @@ main {
 /* Product Grid */
 .product-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); 
-    gap: 20px;
-    max-width: 1200px; 
-    margin: 0 auto; 
+    grid-template-columns: repeat(2, 1fr); /* Ensures two cards per row */
+    gap: 20px; /* Space between cards */
+    max-width: 1200px; /* Limits grid width */
+    margin: 0 auto; /* Centers the grid on the page */
 }
 
 .product-card {
     display: flex;
     align-items: center;
     background-color: #28363D;
-    padding: 20px; 
-    height: 250px;
+    padding: 20px; /* Adds more padding for spacing */
+    height: 250px; /* Increased height for taller cards */
 }
 
 .product-card img {
@@ -161,7 +161,7 @@ main {
     height: auto;
     border-radius: 8px; /* Smooth corners for the image */
     margin-right: 20px;
-    background-color: white;
+	background-color: white;
 }
 
 .product-details {
@@ -170,16 +170,14 @@ main {
 
 .product-details h2 {
     color: white;
-    font-size: 1.5rem; 
+    font-size: 1.5rem; /* Larger font for the product name */
     margin-bottom: 15px;
 }
 
 .product-details p {
-    font-size: 1rem;
+    font-size: 1rem; /* Slightly larger text for details */
     margin-bottom: 10px;
 }
-
-
 /* FAQs/About Us Section */
 /* styling */
 .about-section {
@@ -235,7 +233,7 @@ footer {
     justify-content: space-between;
     align-items: center;
     padding: 0 50px; 
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid white; 
     margin-bottom: 10px;
 }
 
@@ -264,3 +262,55 @@ footer {
     margin-top: 10px;
     color: white;
 }
+/*FAQs Section*/
+.faq-section {
+    max-width: 100%;
+	max-height: 100%;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #2f575d;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.faq-section h1 {
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    margin-bottom: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #99aead;
+}
+
+/* FAQ Container */
+.faq-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.faq-questions, .faq-answers {
+    flex: 1;
+    background-color: #2f575d;
+    padding: 20px;
+    border: 1px solid #2f575d;
+}
+
+.faq-questions h2, .faq-answers h2 {
+    text-align: center;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.faq-questions ul, .faq-answers ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.faq-questions ul li, .faq-answers ul li {
+    margin-bottom: 10px;
+    color: white;
+    line-height: 1.5;
+}
+
